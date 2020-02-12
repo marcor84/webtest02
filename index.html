@@ -1,369 +1,640 @@
-	<!DOCTYPE html>
-	<html lang="zxx" class="no-js">
-	<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
-		<!-- Author Meta -->
-		<meta name="author" content="CodePixar">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>Wedding</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hookup - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--
-			CSS
-			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/availability-calendar.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/nice-select.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/main.css">
-		</head>
-		<body>
+    <link rel="stylesheet" href="css/aos.css">
 
-			<!-- Start Header Area -->
-			<header>
-				<div class="container">
-					<div class="header-wrap">
-						<div class="header-top d-flex justify-content-between align-items-center">
-							<div class="col menu-left">
-								<a href="#">+880 1234 654 953</a>
-								<a href="#">support@colorlib.com</a>
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Hookup</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#groom-bride-section" class="nav-link"><span>Groom &amp; Bride</span></a></li>
+	          <li class="nav-item"><a href="#lovestory-section" class="nav-link"><span>Love Story</span></a></li>
+	          <li class="nav-item"><a href="#greeting-section" class="nav-link"><span>Greetings</span></a></li>
+	          <li class="nav-item"><a href="#people-section" class="nav-link"><span>People</span></a></li>
+	          <li class="nav-item"><a href="#when-where-section" class="nav-link"><span>When &amp; Where</span></a></li>
+	          <li class="nav-item"><a href="#rsvp-section" class="nav-link"><span>RSVP</span></a></li>
+	          <li class="nav-item"><a href="#gallery-section" class="nav-link"><span>Gallery</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+	  <section id="home" class="video-hero js-fullheight" style="height: 700px; background-image: url(images/bg_1.jpg); background-size:cover; background-position: top center;" data-stellar-background-ratio="0.5">
+	  	<div class="overlay"></div>
+			<a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Mjjw19B7rMk',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default',optimizeDisplay:true}"></a>
+			<div class="container">
+				<div class="row js-fullheight justify-content-center d-flex align-items-center">
+					<div class="col-md-12">
+						<div class="text text-center">
+							<div class="icon">
+								<span class="flaticon-rose-outline-variant-with-vines-and-leaves"></span>
 							</div>
-							<div class="col-3 logo">
-								<a href="index.html"><img class="mx-auto" src="img/logo.png" alt=""></a>
+							<span class="subheading">The Wedding of</span>
+							<h1>Francisco &amp; Laura</h1>
+							<div id="timer" class="d-flex">
+							  <div class="time" id="days"></div>
+							  <div class="time pl-3" id="hours"></div>
+							  <div class="time pl-3" id="minutes"></div>
+							  <div class="time pl-3" id="seconds"></div>
 							</div>
-							 <nav class="col navbar navbar-expand-md justify-content-end">
-
-							  <!-- Toggler/collapsibe Button -->
-							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-							    <span class="lnr lnr-menu"></span>
-							  </button>
-
-							  <!-- Navbar links -->
-							  <div class="collapse navbar-collapse menu-right" id="collapsibleNavbar">
-							    <ul class="navbar-nav">
-							      <li class="nav-item">
-							        <a class="nav-link" href="#home">Home</a>
-							      </li>
-							      <li class="nav-item">
-							        <a class="nav-link" href="#about">About us</a>
-							      </li>
-							      <li class="nav-item">
-							        <a class="nav-link" href="#gallery">Gallery</a>
-							      </li>
-								   <!-- Dropdown -->
-								    <li class="nav-item dropdown">
-								      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-								        Pages
-								      </a>
-								      <div class="dropdown-menu">
-								        <a class="dropdown-item" href="generic.html">Generic</a>
-								        <a class="dropdown-item" href="elements.html">Elements</a>
-								      </div>
-								    </li>							     					      
-							    </ul>
-							  </div>
-							</nav> 
 						</div>
 					</div>
 				</div>
-			</header>
-			<!-- End Header Area -->
+			</div>
+		</section>
 
-			<!-- start banner Area -->
-			<section class="banner-area relative" id="home">
-				<div class="overlay overlay-bg"></div>
-				<div class="container">
-						<div class="row fullscreen align-items-center justify-content-center" style="height: 915px;">
-							<div class="banner-content col-lg-12 col-md-12">
-								<h1>
-									James & Julie <br>
-									are Getting Married
-								</h1>
-							</div>
-						</div>
-				</div>
-			</section>
-			<!-- End banner Area -->
+		<section class="ftco-section ftco-about ftco-no-pt ftco-no-pb" id="groom-bride-section">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="wrap">
+			    		<div class="row d-flex">
+			    			<div class="col-md-6 d-flex">
+			    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about.jpg);">
+			    				</div>
+			    			</div>
+			    			<div class="col-md-6 py-md-5 text">
+			    				<div class="py-md-4">
+				    				<div class="row justify-content-start pb-3">
+						          <div class="col-md-12 ftco-animate p-4 p-lg-5 text-center">
+						          	<span class="subheading mb-4">Join us to celebrate <br>the wedding day of</span>
+						            <h2 class="mb-4">Francisco <span>&amp;</span> Laura</h2>
+						            <span class="icon flaticon-rose-variant-outline-with-vines"></span>
+						            <span class="subheading">Which is celebration on</span>
+						           	<p class="time mb-4"><span>Dec | 28 | 2019</span></p>
+						           	<span class="subheading mb-5">Starting at 2:00 <br> in the afternoon</span>
+						           	<span class="subheading mb-5">Saint John Paul Church <br> in YorkNew.in</span>
+						          </div>
+						        </div>
+					        </div>
+				        </div>
+			        </div>
+			      </div>
+		      </div>
+		    </div>
+    	</div>
+    </section>
 
-			<!-- Start About Area -->
-			<section class="About-area pt-100 pb-60" id="about">
-				<div class="container">
-					<div class="carousel-trigger">
-							<div class="next-trigger"><span class="lnr lnr-arrow-right"></span></div>
-							<div class="prev-trigger"><span class="lnr lnr-arrow-left"></span></div>	
-						</div> 						
-					<div class="active-about-carousel">
-						<div class="item">
-							<div class="row justify-content-center align-items-center">
-								<div class="col-lg-6">
-									<h1>About the <br>
-									Sweet<span> Cute Bride</span></h1>
-									<p>
-										Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace.								
-									</p>
-									<p>
-										While men’s borderline-inappropriate behavior is often laughed off as “boys will be boys,”
-									</p>
-								</div>
-								<div class="col-lg-6">
-									<img class="img-fluid mx-auto" src="img/about.png" alt="">
-								</div>										
-							</div>
-						</div>
-						<div class="item">
-							<div class="row justify-content-center align-items-center">
-								<div class="col-lg-6">
-									<h1>About the <br>
-									Handsome <span>Groom</span></h1>
-									<p>
-										Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace.								
-									</p>
-									<p>
-										While men’s borderline-inappropriate behavior is often laughed off as “boys will be boys,”
-									</p>
-								</div>
-								<div class="col-lg-6">
-									<img class="img-fluid mx-auto" src="img/about2.png" alt="">
-								</div>										
-							</div>
-						</div>					
-					</div>					
-				</div>	
-			</section>
-			<!-- End About Area -->
-			
-			<!-- Start date Area -->
-			<section class="date-area">
-				<div class="container">
-					<div class="row justify-content-between date-section flex-row">
-							<h3 class="text-white">Wedding Day :     20 March 2018 at 19.00 pm</h3>					
-					</div>
-				</div>	
-			</section>
-			<!-- End date Area -->
-			
-			<!-- Start gallery Area -->
-			<section class="gallery-area pt-100" id="gallery">
-				<div class="container-fluid">
-					<div class="row headz justify-content-center">
-						<div class="col-lg-8">
-							<h1>Our Pre Wedding Photo Gallery</h1>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore  et dolore magna aliqua.
-							</p>							
-						</div>
-					</div>
-					<div class="row no-padding">
-						<div class="single-gallery active-gallery-carusel">
-							<img class="item" src="img/g1.jpg" alt="">
-							<img class="item" src="img/g2.jpg" alt="">
-							<img class="item" src="img/g3.jpg" alt="">
-							<img class="item" src="img/g4.jpg" alt="">
-							<img class="item" src="img/g5.jpg" alt="">
-							<img class="item" src="img/g6.jpg" alt="">
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End gallery Area -->
-
-			<!-- Start countdown Area -->
-			<section class="countdown-area pt-100">
-				<div class="container">
-					<div class="row justify-content-center no-padding">
-						<div class="col-lg-10">
-							<div class="row clock_sec align-items-end clockdiv" id="clockdiv">
-				                    <div class="col clockinner1 clockinner">
-				                        <span class="days">29</span>
-				                        <div class="smalltext">Days</div>
-				                    </div>
-				                    <div class="col clockinner clockinner1">
-				                        <span class="hours">22</span>
-				                        <div class="smalltext">Hours</div>
-				                    </div>
-				                    <div class="col counter-img">
-				                    	<img src="img/counter.png" alt="">
-				                    </div>
-				                    <div class="col clockinner clockinner1">
-				                        <span class="minutes">23</span>
-				                        <div class="smalltext">Minutes</div>
-				                    </div>
-				                    <div class="col clockinner clockinner1">
-				                        <span class="seconds">52</span>
-				                        <div class="smalltext">Seconds</div>
-				                    </div>
-
-				                </div>
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End countdown Area -->
-			
-			<!-- Start information Area -->
-
-			<section class="section-gap info-area">
-				<div class="container">
-					<div class="row headz justify-content-center">
-						<div class="col-lg-6">
-							<h1>Wedding Information</h1>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.
-							</p>							
-						</div>
-					</div>					
-					<div class="single-info row mt-80">
-						<div class="col-lg-6 col-md-12 text-center no-padding">
-							<div class="info-thumb">
-								<img src="img/info1.jpg" class="img-fluid" alt="">
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-12 mt-60 no-padding">
-							<div class="info-content">
-								<h1>Main Ceremony</h1>
-								<p>inappropriate behavior is often laughed off as “boys will be <br> boys,” women face higher conduct standards – especially in the <br>workplace. That’s why it’s crucial that, as women.</p>
-								<div class="meta">
-									<p>Date:  Friday, 20 March 2018</p>
-									<p>Time:  19.00</p>
-									<p>Address:  56/8, West Panthapath.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="single-info row mt-50">
-						<div class="col-lg-6 col-md-12 mt-60 no-padding">
-							<div class="info-content2">
-								<h1>Wedding Party</h1>
-								<p>inappropriate behavior is often laughed off as “boys will be <br> boys,” women face higher conduct standards – especially in the <br>workplace. That’s why it’s crucial that, as women.</p>
-								<div class="meta">
-									<p>Date:  Friday, 20 March 2018</p>
-									<p>Time:  19.00</p>
-									<p>Address:  56/8, West Panthapath.</p>
-								</div>
-							</div>
-						</div>	
-						<div class="col-lg-6 col-md-12 text-center no-padding">
-							<div class="info-thumb">
-								<img src="img/info2.jpg" class="img-fluid" alt="">
-							</div>
-						</div>											
-					</div>
-				</div>
-			</section>			
-			<!-- End information Area -->
-			
-			
-			<!-- Start reservation Area -->
-			<section class="reservation-area section-gap relative" id="reservation">
-				<div class="container">
-					<div class="overlay overlay-bg"></div>
-					<div class="row headz justify-content-center">
-						<div class="col-lg-6">
-							<h1 class="text-white">Vindràs?</h1>
-							<p>
-								Si us plau, apuntat.
-							</p>							
-						</div>
-					</div>					
-					<div class="row no-padding justify-content-center mt-40">
-						<div class="col-lg-8">
-							<form class="booking-form" id="myForm" action="">
-							 	<div class="row">
-						 			<div class="col-lg-6 d-flex flex-column mb-20">
-										<input name="name" placeholder="Nom" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'" class="form-control mt-20" required="" type="text">	
+    <section class="ftco-section bg-section">
+    	<div class="overlay-top" style="background-image: url(images/top-bg.jpg);"></div>
+    	<div class="overlay-bottom" style="background-image: url(images/bottom-bg.jpg);"></div>
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+          	<span class="clone">Bride &amp; Groom</span>
+            <h2 class="mb-3">Bride &amp; Groom</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+        	<div class="col-md-10">
+        		<div class="row">
+		        	<div class="col-md-6 text-center d-flex align-items-stretch">
+		        		<div class="bride-groom ftco-animate">
+		        			<div class="img" style="background-image: url(images/groom.jpg);"></div>
+		        			<div class="text mt-4 px-4">
+		        				<h2>Francisco Fredricksen</h2>
+		        				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+		        			</div>
+		        		</div>
+		        	</div>
+		        	<div class="col-md-6 text-center d-flex align-items-stretch">
+		        		<div class="bride-groom ftco-animate">
+		        			<div class="img" style="background-image: url(images/bride.jpg);"></div>
+		        			<div class="text mt-4 px-4">
+		        				<h2>Laura Moorey</h2>
+		        				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+		        			</div>
+		        		</div>
+		        	</div>
+		        </div>
+		      </div>
+        </div>
+    	</div>
+    </section>
+   
+   	<section class="ftco-section" id="lovestory-section">
+   		<div class="container">
+   			<div class="row justify-content-center pb-5">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+          	<span class="clone">Love Story</span>
+            <h2 class="mb-3">Love Story</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-12">
+        		<ul class="timeline animate-box">
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
+								<div class="timeline-panel ftco-animate text-md-right">
+									<div class="overlay"></div>
+									<div class="timeline-heading">
+										<span class="date">June 10, 2017</span>
+										<h3 class="timeline-title">First We Meet</h3>
 									</div>
-									<div class="col-lg-6 d-flex flex-column mb-20">
-										<input name="email" placeholder="Mail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" class="form-control mt-20" required="" type="email">
-									</div>								 		
-							 		<div class="col-lg-6 d-flex flex-column">
-										<div class="nice-select app-select form-control " tabindex="0">
-											<span class="current">Intolerancia?</span>
-											<ul class="list">
-												<li data-value="Project you want to donate" data-display="Project you want to donate" class="option selected">Meal Preferences</li>
-												<li data-value="1" class="option">Meal 1</li>
-												<li data-value="2" class="option">Meal 2</li>
-												<li data-value="3" class="option">Meal 3</li>
-											</ul>
-										</div>
-							 		</div>
-							 		<div class="col-lg-6 d-flex flex-column">
-										<div class="nice-select app-select form-control " tabindex="0">
-											<span class="current">Invitats</span>
-											<ul class="list">
-												<li data-value="Project you want to donate" data-display="Project you want to donate" class="option selected">Number of guests</li>
-												<li data-value="1" class="option">Number of guests 1</li>
-												<li data-value="2" class="option">Number of guests 2</li>
-												<li data-value="3" class="option">Number of guests 3</li>
-											</ul>
-										</div>
-							 		</div>								 		
-									<div class="col-lg-12 d-flex flex-column">
-										<textarea class="form-control mt-20" name="missatge" placeholder="Notes" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Notes'" required=""></textarea>
+									<div class="timeline-body">
+										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in .</p>
 									</div>
-									
-									<div class="col-lg-12 d-flex justify-content-center send-btn">
-										<button class="submit-btn primary-btn mt-20 text-uppercase ">confirma ja!!<span class="lnr lnr-arrow-right"></span></button>
-									</div>
-
-									<div class="alert-msg"></div>		
 								</div>
-						  	</form>							
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End reservation Area -->
-			
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+								<div class="timeline-panel ftco-animate">
+									<div class="overlay overlay-2"></div>
+									<div class="timeline-heading">
+										<span class="date">June 10, 2017</span>
+										<h3 class="timeline-title">First Date</h3>
+									</div>
+									<div class="timeline-body">
+										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in .</p>
+									</div>
+								</div>
+							</li>
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+								<div class="timeline-panel ftco-animate text-md-right">
+									<div class="overlay"></div>
+									<div class="timeline-heading">
+										<span class="date">June 14, 2017</span>
+										<h3 class="timeline-title">In A Relationship</h3>
+									</div>
+									<div class="timeline-body">
+										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in .</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge" style="background-image:url(images/couple-4.jpg);"></div>
+								<div class="timeline-panel ftco-animate">
+									<div class="overlay overlay-2"></div>
+									<div class="timeline-heading">
+										<span class="date">May. 10, 2019</span>
+										<h3 class="timeline-title">We're Engaged</h3>
+									</div>
+									<div class="timeline-body">
+										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in .</p>
+									</div>
+								</div>
+							</li>
+			    	</ul>
+        	</div>
+        </div>
+   		</div>
+   	</section>
 
-			<!-- start footer Area -->		
-			<footer class="footer-area section-gap">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="footer-top flex-column">
-							<ul class="footer-menu">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">About us</a></li>
-								<li><a href="#">gallery</a></li>
-								<li><a href="#">reservations</a></li>
-							</ul>
-							<div class="footer-social">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-dribbble"></i></a>
-								<a href="#"><i class="fa fa-behance"></i></a>
-							</div>								
-						</div>					
-					</div>
-					<div class="row footer-bottom justify-content-center">
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						<p class="col-lg-8 col-sm-12 footer-text">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					</div>
-				</div>
-			</footer>	
-			<!-- End footer Area -->		
+   	<section class="ftco-section bg-light" id="greeting-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+          	<span class="clone">Testimony</span>
+            <h2 class="mb-3">Sweet Messages</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position">Marketing Manager</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position">Marketing Manager</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position">Marketing Manager</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position">Marketing Manager</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position">Marketing Manager</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>
-			<script src="js/owl.carousel.min.js"></script>
-			<script src="js/jquery.sticky.js"></script>
-			<script src="js/parallax.min.js"></script>
-			<script src="js/jquery.nice-select.min.js"></script>			
-			<script src="js/countdown.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>
-			<script src="js/main.js"></script>	
-		</body>
-	</html>
+    <section class="ftco-section" id="people-section">
+    	<div class="container-fluid px-md-5">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+          	<span class="clone">People</span>
+            <h2 class="mb-3">Family &amp; Friends</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-12">
+        		<div class="carousel-friends owl-carousel ftco-owl ftco-animate">
+        			<div class="item">
+                <div class="people text-center">
+		        			<div class="img" style="background-image: url(images/groom-men-1.jpg);"></div>
+		        			<div class="text">
+		        				<h3>Mark Tomy</h3>
+		        				<span>Groomsmen</span>
+		        			</div>
+		        		</div>
+              </div>
+              <div class="item">
+                <div class="people text-center">
+		        			<div class="img" style="background-image: url(images/groom-men-2.jpg);"></div>
+		        			<div class="text">
+		        				<h3>John Henceworth</h3>
+		        				<span>Groomsmen</span>
+		        			</div>
+		        		</div>
+              </div>
+              <div class="item">
+                <div class="people text-center">
+		        			<div class="img" style="background-image: url(images/groom-men-3.jpg);"></div>
+		        			<div class="text">
+		        				<h3>Rey Cooper</h3>
+		        				<span>Groomsmen</span>
+		        			</div>
+		        		</div>
+              </div>
+              <div class="item">
+                <div class="people text-center">
+		        			<div class="img" style="background-image: url(images/groom-men-4.jpg);"></div>
+		        			<div class="text">
+		        				<h3>Robert Chan</h3>
+		        				<span>Groomsmen</span>
+		        			</div>
+		        		</div>
+              </div>
+              <div class="item">
+                <div class="people text-center">
+		        			<div class="img" style="background-image: url(images/bridesmaid-1.jpg);"></div>
+		        			<div class="text">
+		        				<h3>Rose Jones</h3>
+		        				<span>Bridesmaid</span>
+		        			</div>
+		        		</div>
+              </div>
+              <div class="item">
+                <div class="people text-center">
+		        			<div class="img" style="background-image: url(images/bridesmaid-2.jpg);"></div>
+		        			<div class="text">
+		        				<h3>Mary Dell</h3>
+		        				<span>Bridesmaid</span>
+		        			</div>
+		        		</div>
+              </div>
+              <div class="item">
+                <div class="people text-center">
+		        			<div class="img" style="background-image: url(images/bridesmaid-3.jpg);"></div>
+		        			<div class="text">
+		        				<h3>Alicia Brean</h3>
+		        				<span>Bridesmaid</span>
+		        			</div>
+		        		</div>
+              </div>
+              <div class="item">
+                <div class="people text-center">
+		        			<div class="img" style="background-image: url(images/bridesmaid-4.jpg);"></div>
+		        			<div class="text">
+		        				<h3>Angel Worth</h3>
+		        				<span>Bridesmaid</span>
+		        			</div>
+		        		</div>
+              </div>
+        		</div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section bg-light" id="when-where-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+          	<span class="clone">Place</span>
+            <h2 class="mb-3">Place &amp; Time</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-4 ftco-animate">
+        		<div class="place img" style="background-image: url(images/place-1.jpg);">
+        			<div class="text text-center">
+	        			<span class="icon flaticon-reception-bell"></span>
+	        			<h3>The Reception</h3>
+	        			<p><span>Saturday, 28, 2019</span><br><span>02:00 pm-10:00 pm</span></p>
+	        			<p><span>203 Fake St. Mountain View, San Francisco, California, USA</span></p>
+	        			<p><a href="#">+0 (123) 456 78 910</a></p>
+	        			<p><a href="#" class="btn-custom">See Map</a></p>
+	        		</div>
+        		</div>
+        	</div>
+        	<div class="col-md-4 ftco-animate">
+        		<div class="place img" style="background-image: url(images/place-2.jpg);">
+        			<div class="text text-center">
+	        			<span class="icon flaticon-wedding-kiss"></span>
+	        			<h3>The Ceremony</h3>
+	        			<p><span>Saturday, 28, 2019</span><br><span>02:00 pm-10:00 pm</span></p>
+	        			<p><span>203 Fake St. Mountain View, San Francisco, California, USA</span></p>
+	        			<p><a href="#">+0 (123) 456 78 910</a></p>
+	        			<p><a href="#" class="btn-custom">See Map</a></p>
+	        		</div>
+        		</div>
+        	</div>
+        	<div class="col-md-4 ftco-animate">
+        		<div class="place img" style="background-image: url(images/place-3.jpg);">
+        			<div class="text text-center">
+	        			<span class="icon flaticon-cake"></span>
+	        			<h3>The Party</h3>
+	        			<p><span>Saturday, 28, 2019</span><br><span>02:00 pm-10:00 pm</span></p>
+	        			<p><span>203 Fake St. Mountain View, San Francisco, California, USA</span></p>
+	        			<p><a href="#">+0 (123) 456 78 910</a></p>
+	        			<p><a href="#" class="btn-custom">See Map</a></p>
+	        		</div>
+        		</div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section bg-secondary" id="rsvp-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+          	<span class="clone">RSVP</span>
+            <h2 class="mb-3">Are Your Attending?</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+        	<div class="col-md-7">
+        		<form action="#" class="rsvp-form ftco-animate">
+	    				<div class="">
+		    				<div class="form-group">
+		    					<input type="text" class="form-control" placeholder="Name">
+		    				</div>
+		    				<div class="form-group">
+		    					<input type="text" class="form-control" placeholder="Your email">
+		    				</div>
+	    				</div>
+	    				<div class="">
+	    					<div class="form-group">
+		    					<div class="form-field">
+          					<div class="select-wrap">
+                      <div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                      	<option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                      </select>
+                    </div>
+		              </div>
+		    				</div>
+	    				</div>
+	    				<div class="">
+	    					<div class="form-group">
+		              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+		            </div>
+		            <div class="form-group">
+		              <input type="submit" value="I am attending" class="btn btn-primary py-3 px-4">
+		            </div>
+	    				</div>
+	    			</form>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section" id="gallery-section">
+    	<div class="container-fluid px-md-4">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+          	<span class="clone">Photos</span>
+            <h2 class="mb-3">Gallery</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-3 ftco-animate">
+        		<a href="images/gallery-1.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery-1.jpg);">
+        			<div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-image"></span></div>
+        		</a>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<a href="images/gallery-2.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery-2.jpg);">
+        			<div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-image"></span></div>
+        		</a>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<a href="images/gallery-3.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery-3.jpg);">
+        			<div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-image"></span></div>
+        		</a>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<a href="images/gallery-4.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery-4.jpg);">
+        			<div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-image"></span></div>
+        		</a>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<a href="images/gallery-5.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery-5.jpg);">
+        			<div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-image"></span></div>
+        		</a>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<a href="images/gallery-6.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery-6.jpg);">
+        			<div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-image"></span></div>
+        		</a>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<a href="images/gallery-7.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery-7.jpg);">
+        			<div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-image"></span></div>
+        		</a>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<a href="images/gallery-8.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery-8.jpg);">
+        			<div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-image"></span></div>
+        		</a>
+        	</div>
+        </div>
+    	</div>
+    </section>
+    
+  	<footer class="ftco-footer ftco-section">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Hookup</h2>
+              <p>Far far away, behind the word mountains, far from the countries.</p>
+              <ul class="ftco-footer-social list-unstyled mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Quick Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Wellness</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Vintge stores</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Trekking</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Tour</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Sightseeing</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Many more..</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Groom &amp; Bride</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Story</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Greetings</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>People</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Where &amp; When</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>RSVP</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Gallery</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Organizer</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Venue</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Wedding Ceremony</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Accomodation</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope pr-4"></span><span class="text">info@yourdomain.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+	
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
